@@ -1,0 +1,8 @@
+{:linters {:unresolved-symbol {:exclude [empty-stream
+                                         empty-stack
+                                         empty-map
+                                         empty-heap
+                                         empty-set
+                                         empty-digit
+                                         empty-queue]}}
+ :lint-as {okasaki.common/make-type clojure.core/deftype}}
